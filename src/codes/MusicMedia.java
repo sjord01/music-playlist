@@ -1,5 +1,8 @@
 /**
  * Represents a piece of music media in a library.
+ *
+ * @author Emma Lee, Sam Ordonez
+ * @version 1.0
  */
 public class MusicMedia
 {

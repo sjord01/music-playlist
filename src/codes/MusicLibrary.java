@@ -1,14 +1,27 @@
 import java.util.ArrayList;
 
+/**
+ * Represents a music library that holds various types of media.
+ *
+ * @author Emma Lee, Sam Ordonez
+ * @version 1.0
+ */
 public class MusicLibrary
 {
     private ArrayList<MusicMedia> muscicLibrary;
 
+    /**
+     * Constructs an empty MusicLibrary.
+     */
     public MusicLibrary()
     {
         this.muscicLibrary = new ArrayList<>();
     }
 
+    /**
+     * Adds a piece of media to the library.
+     * @param media The media to add.
+     */
     public void addMedia(final MusicMedia media)
     {
         if(media != null)
@@ -17,6 +30,9 @@ public class MusicLibrary
         }
     }
 
+    /**
+     * Displays the content of the library.
+     */
     public void displayLibrary()
     {
         for (final MusicMedia media : muscicLibrary) {
@@ -24,6 +40,10 @@ public class MusicLibrary
         }
     }
 
+    /**
+     * Plays the section of a media with the specified title.
+     * @param title The title of the media to play.
+     */
     public void playTitle(final String title)
     {
         if(title == null || title.isEmpty())
@@ -31,7 +51,9 @@ public class MusicLibrary
             System.err.println("Invalid title provided.");
         }
 
-        boolean found = false;
+        boolean found;
+
+        found = false;
         for(final MusicMedia media : muscicLibrary)
         {
             if(media.getSongTitle().equals(title))

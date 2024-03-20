@@ -1,8 +1,24 @@
+/**
+ * Represents a compact disc (CD), extending the MusicMedia class.
+ *
+ * @author Emma Lee, Sam Ordonez
+ * @version 1.0
+ */
 public class CompactDisc extends MusicMedia
 {
     private final boolean hasBonusTracks;
     private final boolean hasDigipac;
 
+    /**
+     * Constructs a CompactDisc object with the specified attributes.
+     * @param songArtist The artist of the songs in the CD.
+     * @param songTitle The title of the CD.
+     * @param totalNumberOfSongs The total number of songs in the CD.
+     * @param totalRuntimeMins The total runtime of the CD in minutes.
+     * @param yearReleased The year the CD was released.
+     * @param hasBonusTracks Indicates whether the CD has bonus tracks.
+     * @param hasDigipac Indicates whether the CD has a digipac packaging.
+     */
     public CompactDisc(final String  songArtist,
                        final String  songTitle,
                        final int     totalNumberOfSongs,
@@ -16,12 +32,20 @@ public class CompactDisc extends MusicMedia
         this.hasDigipac = hasDigipac;
     }
 
+    /**
+     * Generates a string representation of the CompactDisc object.
+     * @return A string representation of the CompactDisc object.
+     */
     @Override
     public String toString()
     {
         return String.format("CompactDisc [bonusTracks=%b, digipac=%b, %s]", hasBonusTracks, hasDigipac, super.toString());
     }
 
+    /**
+     * Plays a section of the CD.
+     * Overrides the playSection method from the MusicMedia class.
+     */
     @Override
     public void playSection()
     {

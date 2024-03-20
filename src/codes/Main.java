@@ -1,4 +1,11 @@
-public class Main {
+/**
+ * Main class to demonstrate the functionality of the MusicLibrary.
+ *
+ * @author Emma Lee, Sam Ordonez
+ * @version 1.0
+ */
+public class Main
+{
     public static void main(final String[] args)
     {
         Record record = new Record("The Beatles", "Hey Jude", 1, 7, 1968, 7.0, 45.0);
