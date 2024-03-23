@@ -9,9 +9,9 @@ public class Record extends MusicMedia
     private final double recordSizeInches;
     private final double rpm;
 
-    private static final int DISC_SIZE_7_INCHES = 7;
-    private static final int DISC_SIZE_10_INCHES = 10;
-    private static final int DISC_SIZE_12_INCHES = 12;
+    private static final int DISC_SIZE_SMALL = 7;
+    private static final int DISC_SIZE_MEDIUM = 10;
+    private static final int DISC_SIZE_LARGE = 12;
     private static final double RPM_1 = 33.3;
     private static final double RPM_2 = 45.0;
     private static final double RPM_3 = 78.0;
@@ -48,7 +48,7 @@ public class Record extends MusicMedia
      */
     private void validateRecord()
     {
-        if(recordSizeInches != DISC_SIZE_7_INCHES && recordSizeInches != DISC_SIZE_10_INCHES && recordSizeInches != DISC_SIZE_12_INCHES)
+        if(recordSizeInches != DISC_SIZE_SMALL && recordSizeInches != DISC_SIZE_MEDIUM && recordSizeInches != DISC_SIZE_LARGE)
         {
             throw new IllegalArgumentException("Invalid record size entered " + recordSizeInches);
         }
