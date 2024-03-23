@@ -1,7 +1,7 @@
 /**
  * Represents a compact disc (CD), extending the MusicMedia class.
  *
- * @author Emma Lee, Sam Ordonez
+ * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris H.
  * @version 1.0
  */
 public class CompactDisc extends MusicMedia

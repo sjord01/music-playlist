@@ -1,7 +1,7 @@
 /**
  * Represents a piece of music media in a library.
  *
- * @author Emma Lee, Sam Ordonez
+ * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris H.
  * @version 1.0
  */
 public class MusicMedia
@@ -12,6 +12,9 @@ public class MusicMedia
     private final int       totalRuntimeMins;
     private final int       yearReleased;
 
+    private static final int MIN_NUM_OF_SONGS = 0;
+    private static final int MIN_SONG_RUNTIME_MINUTES = 0;
+    private static final int MIN_YEAR = 0;
     /**
      * Constructs a MusicMedia object with the provided details.
      *
@@ -43,7 +46,7 @@ public class MusicMedia
      */
     private void validateMusicMediaInput()
     {
-        if(songArtist == null || songTitle == null || totalNumberOfSongs <= 0 || totalRuntimeMins <= 0 || yearReleased <= 0)
+        if(songArtist == null || songTitle == null || totalNumberOfSongs <= MIN_NUM_OF_SONGS || totalRuntimeMins <= MIN_SONG_RUNTIME_MINUTES || yearReleased <= MIN_YEAR)
         {
             throw new IllegalArgumentException("Invalid data entered " + songArtist);
         }

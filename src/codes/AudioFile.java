@@ -1,7 +1,7 @@
 /**
  * Represents an audio file, extending the MusicMedia class.
  *
- * @author Emma Lee, Sam Ordonez
+ * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris H.
  * @version 1.0
  */
 public class AudioFile extends MusicMedia

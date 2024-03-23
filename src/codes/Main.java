@@ -1,7 +1,7 @@
 /**
  * Main class to demonstrate the functionality of the MusicLibrary.
  *
- * @author Emma Lee, Sam Ordonez
+ * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris H.
  * @version 1.0
  */
 public class Main

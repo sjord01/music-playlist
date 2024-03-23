@@ -3,19 +3,19 @@ import java.util.ArrayList;
 /**
  * Represents a music library that holds various types of media.
  *
- * @author Emma Lee, Sam Ordonez
+ * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris H.
  * @version 1.0
  */
 public class MusicLibrary
 {
-    private ArrayList<MusicMedia> muscicLibrary;
+    private ArrayList<MusicMedia> musicLibrary;
 
     /**
      * Constructs an empty MusicLibrary.
      */
     public MusicLibrary()
     {
-        this.muscicLibrary = new ArrayList<>();
+        this.musicLibrary = new ArrayList<>();
     }
 
     /**
@@ -26,7 +26,7 @@ public class MusicLibrary
     {
         if(media != null)
         {
-            muscicLibrary.add(media);
+            musicLibrary.add(media);
         }
     }
 
@@ -35,7 +35,7 @@ public class MusicLibrary
      */
     public void displayLibrary()
     {
-        for (final MusicMedia media : muscicLibrary) {
+        for (final MusicMedia media : musicLibrary) {
             System.out.println(media.toString());
         }
     }
@@ -54,7 +54,7 @@ public class MusicLibrary
         boolean found;
 
         found = false;
-        for(final MusicMedia media : muscicLibrary)
+        for(final MusicMedia media : musicLibrary)
         {
             if(media.getSongTitle().equals(title))
             {
