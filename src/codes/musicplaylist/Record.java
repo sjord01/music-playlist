@@ -1,7 +1,11 @@
 /**
  * Represents a physical record, extending the MusicMedia class.
  *
- * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris H.
+ * This class represents a physical record with additional attributes such as record size
+ * in inches and revolutions per minute (rpm). It inherits properties and behavior from the
+ * MusicMedia class and provides methods to access and manipulate record-specific information.
+ *
+ * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris Helmhold
  * @version 1.0
  */
 public class Record extends MusicMedia

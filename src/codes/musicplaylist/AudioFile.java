@@ -1,7 +1,11 @@
 /**
  * Represents an audio file, extending the MusicMedia class.
  *
- * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris H.
+ * This class represents an audio file with additional attributes such as file type. It
+ * inherits properties and behavior from the MusicMedia class and provides methods to
+ * access and manipulate audio file-specific information.
+ *
+ * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris Helmhold
  * @version 1.0
  */
 public class AudioFile extends MusicMedia

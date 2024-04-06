@@ -1,7 +1,12 @@
 /**
  * Represents a compact disc (CD), extending the MusicMedia class.
  *
- * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris H.
+ * This class represents a compact disc with additional attributes such as
+ * whether it has bonus tracks and whether it has a digipac packaging. It
+ * inherits properties and behavior from the MusicMedia class and provides
+ * methods to access and manipulate CD-specific information.
+ *
+ * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris Helmhold
  * @version 1.0
  */
 public class CompactDisc extends MusicMedia

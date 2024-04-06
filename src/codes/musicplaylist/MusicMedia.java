@@ -1,7 +1,11 @@
 /**
  * Represents a piece of music media in a library.
  *
- * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris H.
+ * This class encapsulates details about a music media, including song artist, title,
+ * total number of songs in the album, total runtime in minutes, and the year of release.
+ * It also provides methods to access and manipulate this information.
+ *
+ * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris Helmhold
  * @version 1.0
  */
 public class MusicMedia

@@ -3,7 +3,10 @@ import java.util.ArrayList;
 /**
  * Represents a music library that holds various types of media.
  *
- * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris H.
+ * This class manages a collection of MusicMedia objects, providing methods to add media,
+ * display the library content, and play sections of media based on the title.
+ *
+ * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris Helmhold
  * @version 1.0
  */
 public class MusicLibrary

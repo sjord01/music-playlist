@@ -1,6 +1,11 @@
 /**
  * Main class to demonstrate the functionality of the MusicLibrary.
  *
+ * This class contains the main method to demonstrate the functionality of the MusicLibrary
+ * class. It creates instances of Record, CompactDisc, and AudioFile, adds them to a MusicLibrary
+ * instance, and then displays the library content. It also tests the playTitle method of the
+ * MusicLibrary class.
+ *
  * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris H.
  * @version 1.0
  */
@@ -8,9 +13,9 @@ public class Main
 {
     public static void main(final String[] args)
     {
-        final Record record;
+        final Record      record;
         final CompactDisc compactDisc;
-        final AudioFile audioFile;
+        final AudioFile   audioFile;
 
         record = new Record("The Beatles", "Hey Jude", 1, 7, 1968, 7.0, 45.0);
         compactDisc = new CompactDisc("Neil Young & Crazy Horse", "Everybody Knows This Is Nowhere", 4, 40, 1969, false, false);
