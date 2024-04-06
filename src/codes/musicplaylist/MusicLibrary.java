@@ -1,9 +1,11 @@
+package musicplaylist;
+
 import java.util.ArrayList;
 
 /**
  * Represents a music library that holds various types of media.
  *
- * This class manages a collection of MusicMedia objects, providing methods to add media,
+ * This class manages a collection of musicplaylist.MusicMedia objects, providing methods to add media,
  * display the library content, and play sections of media based on the title.
  *
  * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris Helmhold
@@ -14,7 +16,7 @@ public class MusicLibrary
     private ArrayList<MusicMedia> musicLibrary;
 
     /**
-     * Constructs an empty MusicLibrary.
+     * Constructs an empty musicplaylist.MusicLibrary.
      */
     public MusicLibrary()
     {

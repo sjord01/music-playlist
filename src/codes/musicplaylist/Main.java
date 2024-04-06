@@ -1,10 +1,12 @@
+package musicplaylist;
+
 /**
- * Main class to demonstrate the functionality of the MusicLibrary.
+ * musicplaylist.Main class to demonstrate the functionality of the musicplaylist.MusicLibrary.
  *
- * This class contains the main method to demonstrate the functionality of the MusicLibrary
- * class. It creates instances of Record, CompactDisc, and AudioFile, adds them to a MusicLibrary
+ * This class contains the main method to demonstrate the functionality of the musicplaylist.MusicLibrary
+ * class. It creates instances of musicplaylist.Record, musicplaylist.CompactDisc, and musicplaylist.AudioFile, adds them to a musicplaylist.MusicLibrary
  * instance, and then displays the library content. It also tests the playTitle method of the
- * MusicLibrary class.
+ * musicplaylist.MusicLibrary class.
  *
  * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris H.
  * @version 1.0
@@ -21,7 +23,7 @@ public class Main
         compactDisc = new CompactDisc("Neil Young & Crazy Horse", "Everybody Knows This Is Nowhere", 4, 40, 1969, false, false);
         audioFile = new AudioFile("Donnie Iris and the Cruisers", "Ah Leah!", 1, 4, 1980, "wav");
 
-        // Create MusicLibrary instance
+        // Create musicplaylist.MusicLibrary instance
         MusicLibrary library = new MusicLibrary();
 
         // Add instances to the library

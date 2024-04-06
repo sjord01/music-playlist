@@ -1,9 +1,11 @@
+package musicplaylist;
+
 /**
- * Represents a physical record, extending the MusicMedia class.
+ * Represents a physical record, extending the musicplaylist.MusicMedia class.
  *
  * This class represents a physical record with additional attributes such as record size
  * in inches and revolutions per minute (rpm). It inherits properties and behavior from the
- * MusicMedia class and provides methods to access and manipulate record-specific information.
+ * musicplaylist.MusicMedia class and provides methods to access and manipulate record-specific information.
  *
  * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris Helmhold
  * @version 1.0
@@ -21,7 +23,7 @@ public class Record extends MusicMedia
     private static final double RPM_3 = 78.0;
 
     /**
-     * Constructs a Record object with the specified attributes.
+     * Constructs a musicplaylist.Record object with the specified attributes.
      * @param songArtist The artist of the song.
      * @param songTitle The title of the song.
      * @param totalNumberOfSongs The total number of songs on the record.
@@ -79,18 +81,18 @@ public class Record extends MusicMedia
     }
 
     /**
-     * Generates a string representation of the Record object.
-     * @return A string representation of the Record object.
+     * Generates a string representation of the musicplaylist.Record object.
+     * @return A string representation of the musicplaylist.Record object.
      */
     @Override
     public String toString()
     {
-        return String.format("Record [size=%.0f, rpm=%.1f, %s]", recordSizeInches, rpm, super.toString());
+        return String.format("musicplaylist.Record [size=%.0f, rpm=%.1f, %s]", recordSizeInches, rpm, super.toString());
     }
 
     /**
      * Plays a section of the record.
-     * Overrides the playSection method from the MusicMedia class.
+     * Overrides the playSection method from the musicplaylist.MusicMedia class.
      */
     @Override
     public void playSection()

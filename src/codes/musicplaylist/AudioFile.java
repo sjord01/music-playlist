@@ -1,8 +1,10 @@
+package musicplaylist;
+
 /**
- * Represents an audio file, extending the MusicMedia class.
+ * Represents an audio file, extending the musicplaylist.MusicMedia class.
  *
  * This class represents an audio file with additional attributes such as file type. It
- * inherits properties and behavior from the MusicMedia class and provides methods to
+ * inherits properties and behavior from the musicplaylist.MusicMedia class and provides methods to
  * access and manipulate audio file-specific information.
  *
  * @author Emma Lee, Sam Ordonez, Vandy Saxena, Chris Helmhold
@@ -17,7 +19,7 @@ public class AudioFile extends MusicMedia
     private static final String FILE_EXT_WAV = "wav";
 
     /**
-     * Constructs an AudioFile object with the specified attributes.
+     * Constructs an musicplaylist.AudioFile object with the specified attributes.
      * @param songArtist The artist of the song.
      * @param songTitle The title of the song.
      * @param totalNumberOfSongs The total number of songs in the audio file.
@@ -54,18 +56,18 @@ public class AudioFile extends MusicMedia
     }
 
     /**
-     * Generates a string representation of the AudioFile object.
-     * @return A string representation of the AudioFile object.
+     * Generates a string representation of the musicplaylist.AudioFile object.
+     * @return A string representation of the musicplaylist.AudioFile object.
      */
     @Override
     public String toString()
     {
-        return String.format("AudioFile [fileType=%s, %s]", fileType, super.toString());
+        return String.format("musicplaylist.AudioFile [fileType=%s, %s]", fileType, super.toString());
     }
 
     /**
      * Plays a section of the audio file.
-     * Overrides the playSection method from the MusicMedia class.
+     * Overrides the playSection method from the musicplaylist.MusicMedia class.
      */
     @Override
     public void playSection()

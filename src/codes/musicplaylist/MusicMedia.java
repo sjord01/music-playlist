@@ -1,3 +1,5 @@
+package musicplaylist;
+
 /**
  * Represents a piece of music media in a library.
  *
@@ -20,7 +22,7 @@ public class MusicMedia
     private static final int MIN_SONG_RUNTIME_MINUTES = 0;
     private static final int MIN_YEAR = 0;
     /**
-     * Constructs a MusicMedia object with the provided details.
+     * Constructs a musicplaylist.MusicMedia object with the provided details.
      *
      * @param songArtist        The artist of the song.
      * @param songTitle         The title of the song.
@@ -45,7 +47,7 @@ public class MusicMedia
     }
 
     /**
-     * Validates the data of the MusicMedia object.
+     * Validates the data of the musicplaylist.MusicMedia object.
      * Throws an IllegalArgumentException if any data is invalid.
      */
     private void validateMusicMediaInput()
@@ -98,8 +100,8 @@ public class MusicMedia
     }
 
     /**
-     * Returns a string representation of the MusicMedia object.
-     * @return A string representation of the MusicMedia object.
+     * Returns a string representation of the musicplaylist.MusicMedia object.
+     * @return A string representation of the musicplaylist.MusicMedia object.
      */
     @Override
     public String toString()
